@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="ventanaPrincipal" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerSistema">
+   <left>
+      <VBox prefHeight="200.0" prefWidth="180.0" style="-fx-background-color: #303030;">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#crearClienteUI" prefHeight="30.0" prefWidth="220.0" style="-fx-background-color: transparent; -fx-text-fill: #f0f0f0;" text="Crear Cliente">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#crearCuentaUI" prefHeight="30.0" prefWidth="222.0" style="-fx-background-color: transparent; -fx-text-fill: #f0f0f0;" text="Crear Cuenta">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="35.0" mnemonicParsing="false" onMouseClicked="#transaccionesUI" prefHeight="30.0" prefWidth="198.0" style="-fx-background-color: transparent; -fx-text-fill: #f0f0f0;" text="Realizar Transacciones">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button layoutX="10.0" layoutY="60.0" mnemonicParsing="false" onMouseClicked="#movimientosUI" prefHeight="30.0" prefWidth="191.0" style="-fx-background-color: transparent; -fx-text-fill: #f0f0f0;" text="Consultar Movimientos">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
